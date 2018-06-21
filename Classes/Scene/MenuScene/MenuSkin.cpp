@@ -1,4 +1,7 @@
 #include "MenuSkin.h"
+#include "Client/web.h"
+
+Client cl;
 
 Scene* MenuSkin::createScene()
 {
@@ -82,8 +85,7 @@ bool MenuSkin::init()
 
 void MenuSkin::returnScene(int skinID)
 {
-	//要把skinID传给服务器orz
-	//代码待补！！！！！！！！！！！！！！！！！！！！
+	cl.setSkin(skinID);  //将皮肤号保存
 
 	Director::getInstance()->popScene();
 }
