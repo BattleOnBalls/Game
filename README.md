@@ -36,7 +36,6 @@ STL容器，如std::vector,std::map等`√`<br>
 适时附上注释便于理解<br>
 尽可能使用按引用传递<br>
 使用#define声明常量<br>
-
 <br>
 ## 游戏运行说明：<br>
 ### 开始界面  <br> 
