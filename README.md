@@ -39,16 +39,21 @@ STL容器，如std::vector,std::map等`√`<br>
 <br>
 ## 游戏运行说明：<br>
 ### 开始界面  <br> 
+![image text](https://github.com/BattleOnBalls/Game/blob/master/enter.png)
 点击框框输入昵称，再点击“修改”按钮确认修改（一定要点击哦，不然无法开始游戏）<br>
+![image text](https://github.com/BattleOnBalls/Game/blob/master/skin.jpg)
 开始界面右上角有选择“皮肤”的按钮，选择你喜欢的皮肤，不要裸奔喔（裸奔是蜜汁绿色：）嘿嘿）<br>
 点击“开始比赛”进入游戏界面<br>
 ### 游戏界面<br>
+![image text](https://github.com/BattleOnBalls/Game/blob/master/game.png)
 进入游戏后，通过虚拟摇杆控制球球的移动（点击界面摇杆出现，拖动鼠标球球会朝相同方向前进）<br>
 点击右下方“闪电”球球会吐孢子（达到一定分值才可吐孢子）<br>
 点击右下方“-”球球会分身（只有达到一定分值才能分身，分身数达到一定限额则不能继续分身）<br>
 游戏界面会不定时出现绿刺。球球足够大时，碰撞绿刺吃掉绿刺的同时还会分裂（达到分身上限时，仅吃掉不分身）<br>
+![image text]（https://github.com/BattleOnBalls/Game/blob/master/ai.png）
 由于服务器存在一个de不出来的bug目前还没有实现联网功能...为了排遣玩家寂寞空虚冷的情绪，我们加入了一个AI...这个AI有点智障，只会吃最近的豆子和在玩家比它大时逃跑，玩家比它小时过来吃玩家（偶尔皮一下自己还会分个身）...但是它速度快！也不是那么好吃到的！ <br>
-### 结束界面<br>      
+### 结束界面<br>
+![image text](https://github.com/BattleOnBalls/Game/blob/master/over.png)
 游戏结束后会显示你的最终得分<br>
 可以选择“退出”或者“返回大厅”继续游戏<br>
  
