@@ -6,7 +6,7 @@ int SCORE = 0;
 
 DataLayer::DataLayer()
 {
-	_time = 300;
+	_time = 180;
 }
 
 DataLayer::~DataLayer()
