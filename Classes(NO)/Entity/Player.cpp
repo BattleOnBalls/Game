@@ -164,7 +164,9 @@ void Player::spitSpore(Node *map, Map<int, Spore*> &sporeMap, int globalID)
 				float angle = division->getVelocity().getAngle();
 				float radius = division->getRadius();
 				auto spore = Spore::create("public/spore_1.png");
-				spore->setPosition(Vec2(position.x, position.y));
+				Vec2 sporePosition = Vec2(position.x + radius * cosf(angle) * 2,
+					position.y + radius * sinf(angle) * 2);
+				spore->setPosition(sporePosition);
 				Vec2 newPosition = Vec2((radius + PLAYER_MIN_SPIT_DISTANCE) * cosf(angle),
 					(radius + PLAYER_MIN_SPIT_DISTANCE) * sinf(angle));
 				auto action = MoveBy::create(0.5, newPosition);
