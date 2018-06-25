@@ -1,4 +1,4 @@
-# Game
+﻿# Game
 ## 项目选题：<br>
 Agar.io<br>
 <br>
@@ -40,7 +40,7 @@ STL容器，如std::vector,std::map等`√`<br>
 ## 游戏运行说明：<br>
 ### 开始界面  <br> 
 ![image text](https://github.com/BattleOnBalls/Game/blob/master/enter.png)<br><br>
-点击框框输入昵称，再点击“修改”按钮确认修改（一定要点击哦，不然无法开始游戏）<br><br>
+点击框框输入昵称，再点击“修改”按钮确认修改（一定要点击哦，不然无法开始游戏；也可以不改昵称，使用系统随机分配的）<br><br>
 ![image text](https://github.com/BattleOnBalls/Game/blob/master/skin.jpg)<br><br>
 开始界面右上角有选择“皮肤”的按钮，选择你喜欢的皮肤，不要裸奔喔（裸奔是蜜汁绿色：）嘿嘿）<br>
 点击“开始比赛”进入游戏界面<br>
